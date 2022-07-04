@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/plus-jakarta-display.min.css"
+    />
+    <title>FlameCloud</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header_logo">
+          <svg
+            width="40"
+            height="47"
+            viewBox="0 0 40 47"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              x="6.27545"
+              y="7.11182"
+              width="17.8142"
+              height="33.4016"
+              rx="4.45354"
+              fill="#0030CD"
+            />
+            <path
+              d="M15.1826 16.4238H32.9967V11.5654C32.9967 9.10573 31.0028 7.11182 28.5432 7.11182H10.729H10.5266V7.11634C10.5937 7.11334 10.6612 7.11182 10.729 7.11182C13.1887 7.11182 15.1826 9.10573 15.1826 11.5654V16.4238Z"
+              fill="#4873FF"
+            />
+            <path
+              d="M10.5266 40.5089V40.5134H10.729H28.5432C31.0028 40.5134 32.9967 38.5195 32.9967 36.0598V31.2014H15.1826V36.0598C15.1826 38.5195 13.1887 40.5134 10.729 40.5134C10.6612 40.5134 10.5937 40.5119 10.5266 40.5089Z"
+              fill="#4873FF"
+            />
+            <rect
+              x="1.51825"
+              y="2.15204"
+              width="36.0332"
+              height="42.7135"
+              rx="9.21073"
+              stroke="#0030CD"
+              stroke-width="3.0365"
+            />
+          </svg>
+          <h2 class="logo_name">CoinCard</h2>
+        </div>
+        <div class="header_categories">
+          <h4 class="category_text">Order</h4>
+          <h4 class="category_text">Features</h4>
+          <h4 class="category_text">AboutUs</h4>
+          <h4 class="category_text">FAQs</h4>
+        </div>
+        <div class="header_login">
+          <h4 class="login_text">Log In</h4>
+          <button class="signup_btn">Sign Up</button>
+        </div>
+      </header>
+      <section class="content">
+        <div class="content_left">
+          <div class="welcome">
+            <h3 class="content_text">WELCOME TO COINCARD</h3>
+            <div class="hl"></div>
+          </div>
+          <h1 class="content_heading">
+            Get a <span class="highlight">VCC</span> in just
+            <span class="highlight">5 Minutes</span>
+          </h1>
+          <p class="content_desc">
+            Lorem ipsum dolor sit amet consectetur elit. Ducimus rem nihil
+            pariatur illo placeat dolore
+          </p>
+          <div class="learn">
+            <button class="content_btn">Get Started -></button>
+            <p class="more">Learn More</p>
+          </div>
+          <div class="rated">
+            <div class="users">
+              <img
+                class="content_image1"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo11Zte3fuhQvRiKks2mvf7DhP-aXSeu7PZQ&usqp=CAU"
+                alt="#"
+              />
+              <img
+                class="content_image2"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0TmmvpjabycAZB3h7kCER9OEvOMN6QZtAcQ&usqp=CAU"
+                alt="#"
+              />
+              <img
+                class="content_image3"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPJX9du0pNznjg7_cM2FZle1CbL0mYrmraTg&usqp=CAU"
+                alt="#"
+              />
+              <img
+                class="content_image4"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb51Yj-DS6kVL7MmwQlcDzpdeYRaHK3Hd__g&usqp=CAU"
+                alt="#"
+              />
+              <div class="plus">+1k</div>
+            </div>
+            <div class="vl"></div>
+            <div>
+              <h6 class="ratings">
+                Rated 4.9
+                <svg
+                  width="13"
+                  height="13"
+                  viewBox="0 0 13 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.85638 1.92981C6.66853 1.60608 6.20103 1.60608 6.01319 1.92981L4.69027 4.20968C4.59747 4.3696 4.43708 4.47873 4.25427 4.50634L1.77503 4.8808C1.35863 4.9437 1.21256 5.46945 1.53685 5.73812L3.38378 7.26828C3.55474 7.40992 3.63513 7.63334 3.5936 7.85144L3.11047 10.3886C3.0341 10.7897 3.45514 11.1013 3.8164 10.9111L6.15091 9.68185C6.3286 9.58829 6.54097 9.58829 6.71865 9.68185L9.05317 10.9111C9.41443 11.1013 9.83547 10.7897 9.75909 10.3886L9.27596 7.85144C9.23444 7.63334 9.31482 7.40992 9.48579 7.26828L11.3327 5.73812C11.657 5.46945 11.5109 4.9437 11.0945 4.8808L8.6153 4.50634C8.43248 4.47873 8.27209 4.3696 8.1793 4.20968L6.85638 1.92981Z"
+                    fill="#00C344"
+                  />
+                </svg>
+                on TrustPilot
+              </h6>
+              <p class="customer">By 1000+ Customers</p>
+            </div>
+          </div>
+        </div>
+        <div class="content_right">
+          <div class="content_card">
+            <div class="card_upper">
+              <div class="card_name">
+                <img class="card_image" src="./assets/cardLogo.png" alt="#" />
+                <svg
+                  width="131"
+                  height="23"
+                  viewBox="0 0 131 23"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M11.6472 18.8177C7.23008 18.8177 4.94537 15.2536 4.94537 11.6894C4.94537 8.15573 7.23008 4.59159 11.6472 4.59159C13.871 4.59159 15.5769 5.50547 16.704 6.8763L20.1158 4.62205C18.1967 2.15457 15.2113 0.66189 11.6472 0.66189C5.34138 0.66189 0.802429 5.44455 0.802429 11.6894C0.802429 17.9343 5.34138 22.7474 11.6472 22.7474C15.2113 22.7474 18.1967 21.2243 20.1158 18.7872L16.704 16.533C15.5769 17.9038 13.871 18.8177 11.6472 18.8177Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M29.7828 6.5412C25.1524 6.5412 21.6492 10.1054 21.6492 14.6443C21.6492 19.1528 25.1524 22.7474 29.7828 22.7474C34.4436 22.7474 37.9468 19.1528 37.9468 14.6443C37.9468 10.1054 34.4436 6.5412 29.7828 6.5412ZM29.7828 19.0309C27.2239 19.0309 25.6094 17.0509 25.6094 14.6443C25.6094 12.2377 27.2239 10.2577 29.7828 10.2577C32.3721 10.2577 33.9866 12.2377 33.9866 14.6443C33.9866 17.0509 32.3721 19.0309 29.7828 19.0309Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M40.6801 22.3514H44.5489V6.90676H40.6801V22.3514ZM42.5993 4.65251C43.7568 4.65251 44.6707 3.73863 44.6707 2.58104C44.6707 1.45392 43.7568 0.540039 42.5993 0.540039C41.4721 0.540039 40.5583 1.45392 40.5583 2.58104C40.5583 3.73863 41.4721 4.65251 42.5993 4.65251Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M56.5533 6.5412C54.2991 6.5412 52.8978 7.54648 52.0449 8.79545V6.90676H48.2066V22.3514H52.0449V13.7609C52.0449 11.994 53.0501 10.2881 55.3348 10.2881C57.5282 10.2881 58.3507 11.7808 58.3507 13.7609V22.3514H62.2194V12.9688C62.2194 9.70933 60.4526 6.5412 56.5533 6.5412Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M76.1128 18.8177C71.6957 18.8177 69.411 15.2536 69.411 11.6894C69.411 8.15573 71.6957 4.59159 76.1128 4.59159C78.3366 4.59159 80.0425 5.50547 81.1697 6.8763L84.5815 4.62205C82.6623 2.15457 79.677 0.66189 76.1128 0.66189C69.807 0.66189 65.2681 5.44455 65.2681 11.6894C65.2681 17.9343 69.807 22.7474 76.1128 22.7474C79.677 22.7474 82.6623 21.2243 84.5815 18.7872L81.1697 16.533C80.0425 17.9038 78.3366 18.8177 76.1128 18.8177Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M93.7539 6.5412C91.1645 6.5412 89.0321 7.48555 87.3262 9.03915L89.9765 11.0497C90.5553 10.6537 91.8042 9.92257 93.2055 9.92257C95.5816 9.92257 96.3737 10.8974 96.4041 13.1212C96.0386 13.1212 95.3379 13.1212 94.7287 13.1212C92.6877 13.1212 86.4123 13.1212 86.4123 18.2084C86.4123 21.4984 89.5805 22.7474 91.8956 22.7474C93.9671 22.7474 95.673 21.8944 96.4041 20.7064V22.3514H100.273V13.0298C100.273 9.34378 98.6584 6.5412 93.7539 6.5412ZM96.4041 18.178C96.069 18.8177 95.0333 19.9448 93.0532 19.9448C91.1341 19.9448 90.3725 19.0005 90.3725 17.8429C90.3725 15.5277 93.3883 15.5582 96.1604 15.5582C96.2214 15.5582 96.3127 15.5582 96.4041 15.5582V18.178Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M107.795 9.43517V6.90676H103.926V22.3514H107.795V15.9847C107.795 13.1212 108.374 10.1967 112.943 10.7451V6.5412C111.085 6.5412 108.952 7.51601 107.795 9.43517Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M126.925 1.02744V8.73452C125.919 7.45509 124.396 6.5412 121.99 6.5412C117.207 6.5412 114.465 10.5928 114.465 14.6443C114.465 18.6959 117.207 22.7474 121.99 22.7474C124.396 22.7474 125.919 21.8031 126.925 20.5541V22.3514H130.794V1.02744H126.925ZM122.599 19.0309C119.949 19.0309 118.426 17.0204 118.426 14.6443C118.426 12.2682 119.949 10.2577 122.599 10.2577C125.249 10.2577 126.742 12.2682 126.742 14.6443C126.742 17.0204 125.249 19.0309 122.599 19.0309Z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+              <div class="inputs">
+                <div class="input">
+                  <i class="bx bx-envelope icon"></i>
+                  <input
+                    class="input_field1"
+                    type="text"
+                    placeholder="Your Email Address"
+                  />
+                </div>
+                <div class="input">
+                  <i class="bx bx-dollar icon"></i>
+                  <input
+                    class="input_field2"
+                    type="number"
+                    placeholder="Card Amount"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="card_bottom">
+              <div class="order">
+                <p class="payment_text">Select Payment</p>
+                <div class="payment1">
+                  <svg
+                    width="20"
+                    height="27"
+                    viewBox="0 0 20 27"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M19.5352 11.0147C19.9397 8.30663 17.8779 6.85086 15.0585 5.87971L15.9731 2.21134L13.7395 1.65485L12.8491 5.22655C12.2627 5.08027 11.6598 4.94226 11.0607 4.80553L11.9575 1.2103L9.72578 0.653809L8.81059 4.32091C8.3247 4.21024 7.84771 4.10085 7.38471 3.98574L7.38726 3.97429L4.30781 3.20539L3.7138 5.59033C3.7138 5.59033 5.37054 5.97002 5.33556 5.99355C6.23994 6.21933 6.40402 6.81779 6.37604 7.29223L5.33429 11.4713C5.39662 11.4872 5.47739 11.5101 5.56643 11.5457L5.33111 11.4872L3.87025 17.3415C3.75959 17.6162 3.47912 18.0283 2.84695 17.8719C2.86921 17.9043 1.22391 17.4667 1.22391 17.4667L0.115387 20.0234L3.02185 20.7478C3.34995 20.83 3.67408 20.9146 3.99465 20.9982L3.99596 20.9986C4.20311 21.0526 4.40878 21.1063 4.61308 21.1586L3.68899 24.8696L5.9194 25.4261L6.83522 21.7552C7.44386 21.9206 8.03533 22.0732 8.61407 22.2169L7.70207 25.8707L9.93502 26.4272L10.8591 22.7238C14.6668 23.4444 17.5306 23.1537 18.7345 19.7105C19.7057 16.9376 18.6868 15.3381 16.6835 14.2944C18.1424 13.9567 19.2414 12.997 19.5346 11.0147H19.5352ZM14.4327 18.1689C13.7988 20.7139 9.81438 19.6608 7.99294 19.1795C7.82983 19.1364 7.68407 19.0978 7.55961 19.0669L8.78579 14.1513C8.93791 14.1893 9.12377 14.231 9.3343 14.2783C11.2187 14.7011 15.0804 15.5677 14.4334 18.1689H14.4327ZM9.71306 11.9973C11.2329 12.4027 14.5457 13.2865 15.1228 10.9746C15.7128 8.60941 12.4914 7.89654 10.9182 7.54838C10.7413 7.50924 10.5852 7.47471 10.4578 7.44296L9.34609 11.9012C9.45129 11.9274 9.57475 11.9604 9.71306 11.9973Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+                <div class="payment2">
+                  <svg
+                    width="18"
+                    height="30"
+                    viewBox="0 0 18 30"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g opacity="0.8">
+                      <path
+                        d="M9.4002 0.653809L9.21588 1.28031V19.4599L9.4002 19.6438L17.8389 14.6557L9.4002 0.653809Z"
+                        fill="#020335"
+                      />
+                      <path
+                        d="M9.40027 0.653809L0.961533 14.6557L9.40027 19.6439V10.8201V0.653809Z"
+                        fill="#020335"
+                      />
+                      <path
+                        d="M9.40021 22.3894L9.29634 22.516V28.992L9.40021 29.2953L17.844 17.4038L9.40021 22.3894Z"
+                        fill="#020335"
+                      />
+                      <path
+                        d="M9.40027 29.2954V22.3894L0.961533 17.4038L9.40027 29.2954Z"
+                        fill="#020335"
+                      />
+                      <path
+                        d="M9.40021 19.6439L17.8388 14.6558L9.40021 10.8202V19.6439Z"
+                        fill="#020335"
+                      />
+                      <path
+                        d="M0.961533 14.6557L9.40014 19.6438V10.8201L0.961533 14.6557Z"
+                        fill="#020335"
+                      />
+                    </g>
+                  </svg>
+                </div>
+                <div class="payment2">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 22"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      opacity="0.75"
+                      d="M8.45209 17.5212L9.79084 12.4802L12.9604 11.3222L13.7488 8.35967L13.7218 8.28618L10.6019 9.42599L12.8498 0.961548H6.47458L3.53479 12.0078L1.08026 12.9045L0.269226 15.9587L2.72187 15.0628L0.989244 21.5729H17.9563L19.044 17.5212H8.45209Z"
+                      fill="#020335"
+                    />
+                  </svg>
+                </div>
+                <button class="order_btn">Order Now -></button>
+              </div>
+            </div>
+          </div>
+          <p class="text">
+            A 5% Fee is applicable on each order. Min Order $10, Max Order
+            $1000. <br />
+            By Proceeding you agree to ours Terms of Service and Privacy Policy.
+          </p>
+        </div>
+      </section>
+      <section class="content_feature">
+        <div class="feature">
+          <h3 class="feature_heading">
+            Why <span class="highlight">CoinCard</span> is the Best
+          </h3>
+          <p class="feature_text">
+            In hac habitasse platea dictumst. Proin sollicitudin odio augue.
+            Cras nibh m.
+          </p>
+        </div>
+        <div class="feature_container">
+          <div class="feature_box">
+            <div class="feature_img">
+              <svg
+                width="22"
+                height="20"
+                viewBox="0 0 26 23"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6.62464 0.386475C5.95755 0.386475 5.3346 0.719869 4.96456 1.27492L0.872503 7.41301C0.621986 7.78879 0.592027 8.26999 0.794 8.67393C3.03327 13.1525 6.14523 17.1382 9.94695 20.3968L11.9429 22.1077C12.4678 22.5575 13.2423 22.5576 13.7672 22.1077L15.7632 20.3968C19.5649 17.1382 22.6769 13.1525 24.9161 8.67393C25.1181 8.26999 25.0881 7.78879 24.8376 7.41301L20.7456 1.27492C20.3755 0.71987 19.7526 0.386475 19.0855 0.386475H6.62464ZM6.38749 2.22354C6.44035 2.14425 6.52935 2.09662 6.62464 2.09662H9.29225L7.10883 7.33683C7.05854 7.45754 7.02058 7.58202 6.995 7.70845C6.19256 7.64872 5.39081 7.57671 4.59002 7.49242L2.98737 7.32372L6.38749 2.22354ZM2.91189 9.03537C4.95654 12.7863 7.65646 16.1442 10.8864 18.9487L7.32303 9.44644C6.35128 9.37964 5.38044 9.29522 4.41099 9.19317L2.91189 9.03537ZM9.18944 9.55304L12.8551 19.3281L16.5207 9.55304C14.0782 9.66415 11.6319 9.66415 9.18944 9.55304ZM18.3871 9.44644L14.8238 18.9487C18.0537 16.1442 20.7536 12.7862 22.7982 9.03537L21.2991 9.19317C20.3297 9.29522 19.3588 9.37964 18.3871 9.44644ZM22.7228 7.32372L21.1201 7.49242C20.3193 7.57671 19.5176 7.64872 18.7151 7.70845C18.6896 7.58202 18.6516 7.45754 18.6013 7.33683L16.4179 2.09662H19.0855C19.1808 2.09662 19.2698 2.14425 19.3226 2.22354L22.7228 7.32372ZM16.9499 7.81996C14.2219 7.96165 11.4883 7.96165 8.76018 7.81996L11.1449 2.09662H14.5652L16.9499 7.81996Z"
+                  fill="#4873FF"
+                />
+              </svg>
+            </div>
+            <h4 class="feature_name">Feature Name</h4>
+            <p class="feature_desc">
+              Curabitur leo elit, fermentum vel erat id, sodales euismod nisl.
+              Sed nec ante nibh. Curabitur varius varius sollicitudin.
+            </p>
+          </div>
+          <div class="feature_box">
+            <div class="feature_img">
+              <svg
+                width="20"
+                height="12"
+                viewBox="0 0 25 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.61833 5.08212C5.35901 5.08212 4.33814 6.103 4.33814 7.36232C4.33814 8.62163 5.35901 9.64251 6.61833 9.64251C7.87765 9.64251 8.89852 8.62163 8.89852 7.36232C8.89852 6.103 7.87765 5.08212 6.61833 5.08212Z"
+                  fill="#4873FF"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6.61833 0.806763C2.9978 0.806763 0.0627747 3.74178 0.0627747 7.36232C0.0627747 10.9829 2.9978 13.9179 6.61833 13.9179C9.1044 13.9179 11.2656 12.5341 12.3767 10.4976H16.0241V13.0628C16.0241 13.535 16.407 13.9179 16.8792 13.9179H20.8695C21.3418 13.9179 21.7246 13.535 21.7246 13.0628V10.4976H23.7198C24.192 10.4976 24.5749 10.1148 24.5749 9.64251V6.22222C24.5749 5.12032 23.6816 4.22705 22.5797 4.22705H12.3767C11.2656 2.19051 9.1044 0.806763 6.61833 0.806763ZM1.77292 7.36232C1.77292 4.68627 3.94228 2.51691 6.61833 2.51691C8.60393 2.51691 10.3125 3.71138 11.0609 5.42447C11.197 5.73591 11.5046 5.9372 11.8445 5.9372H22.5797C22.7371 5.9372 22.8647 6.06481 22.8647 6.22222V8.78744H20.8695C20.3973 8.78744 20.0145 9.17027 20.0145 9.64251V12.2077H17.7343V9.64251C17.7343 9.17027 17.3514 8.78744 16.8792 8.78744H11.8445C11.5046 8.78744 11.197 8.98872 11.0609 9.30016C10.3125 11.0133 8.60393 12.2077 6.61833 12.2077C3.94228 12.2077 1.77292 10.0384 1.77292 7.36232Z"
+                  fill="#4873FF"
+                />
+              </svg>
+            </div>
+
+            <h4 class="feature_name">Feature Name</h4>
+            <p class="feature_desc">
+              vamus tempus odio in nunc consequat, et luctus ipsum semper.
+              Pellentesque porta est velit, vitae tristique ante mollis in.
+            </p>
+          </div>
+          <div class="feature_box">
+            <div class="feature_img">
+              <svg
+                width="10"
+                height="20"
+                viewBox="0 0 13 23"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.56339 0.545384C5.34125 0.343026 7.13632 0.343026 8.91418 0.545384L10.733 0.752405C10.9935 0.782057 11.226 0.929593 11.3638 1.15267C11.5016 1.37575 11.5294 1.64971 11.4393 1.89593L8.92821 8.7554H11.6135C11.894 8.7554 12.1567 8.89298 12.3164 9.12357C12.4762 9.35416 12.5126 9.64843 12.414 9.91103L12.1969 10.4893C10.6906 14.5013 8.56095 18.2506 5.8865 21.5991L5.44107 22.1568C5.21437 22.4407 4.83307 22.5503 4.49023 22.4302C4.1474 22.3101 3.91788 21.9865 3.91788 21.6232V13.4687H1.84127C1.39832 13.4687 1.0287 13.1305 0.989547 12.6892L0.849742 11.1139C0.613196 8.44841 0.613196 5.76723 0.849742 3.10176L0.989547 1.52641C1.02545 1.12183 1.34101 0.798338 1.74457 0.752405L3.56339 0.545384ZM8.72078 2.24456C7.07144 2.05683 5.40613 2.05683 3.7568 2.24456L2.63131 2.37266L2.55319 3.25294C2.32557 5.81782 2.32557 8.39782 2.55319 10.9627L2.62382 11.7586H4.77295C5.24519 11.7586 5.62802 12.1414 5.62802 12.6137V19.1176C7.56858 16.4472 9.16363 13.5401 10.3739 10.4655H7.70463C7.42537 10.4655 7.1637 10.3292 7.00374 10.1003C6.84377 9.87137 6.80567 9.57878 6.90166 9.31653L9.45972 2.32867L8.72078 2.24456Z"
+                  fill="#4873FF"
+                />
+              </svg>
+            </div>
+            <h4 class="feature_name">Feature Name</h4>
+            <p class="feature_desc">
+              Praesent augue nisl, temp Vivamus tempus odio in nunc consequat,
+              et luctus ipsum semper. Pellentesque porta est velit.
+            </p>
+          </div>
+          <div class="feature_box">
+            <div class="feature_img">
+              <svg
+                width="10"
+                height="20"
+                viewBox="0 0 13 23"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.56339 0.545384C5.34125 0.343026 7.13632 0.343026 8.91418 0.545384L10.733 0.752405C10.9935 0.782057 11.226 0.929593 11.3638 1.15267C11.5016 1.37575 11.5294 1.64971 11.4393 1.89593L8.92821 8.7554H11.6135C11.894 8.7554 12.1567 8.89298 12.3164 9.12357C12.4762 9.35416 12.5126 9.64843 12.414 9.91103L12.1969 10.4893C10.6906 14.5013 8.56095 18.2506 5.8865 21.5991L5.44107 22.1568C5.21437 22.4407 4.83307 22.5503 4.49023 22.4302C4.1474 22.3101 3.91788 21.9865 3.91788 21.6232V13.4687H1.84127C1.39832 13.4687 1.0287 13.1305 0.989547 12.6892L0.849742 11.1139C0.613196 8.44841 0.613196 5.76723 0.849742 3.10176L0.989547 1.52641C1.02545 1.12183 1.34101 0.798338 1.74457 0.752405L3.56339 0.545384ZM8.72078 2.24456C7.07144 2.05683 5.40613 2.05683 3.7568 2.24456L2.63131 2.37266L2.55319 3.25294C2.32557 5.81782 2.32557 8.39782 2.55319 10.9627L2.62382 11.7586H4.77295C5.24519 11.7586 5.62802 12.1414 5.62802 12.6137V19.1176C7.56858 16.4472 9.16363 13.5401 10.3739 10.4655H7.70463C7.42537 10.4655 7.1637 10.3292 7.00374 10.1003C6.84377 9.87137 6.80567 9.57878 6.90166 9.31653L9.45972 2.32867L8.72078 2.24456Z"
+                  fill="#4873FF"
+                />
+              </svg>
+            </div>
+            <h4 class="feature_name">Feature Name</h4>
+            <p class="feature_desc">
+              Praesent augue nisl, temp Vivamus tempus odio in nunc consequat,
+              et luctus ipsum semper. Pellentesque porta est velit.
+            </p>
+          </div>
+          <div class="feature_box">
+            <div class="feature_img">
+              <svg
+                width="22"
+                height="20"
+                viewBox="0 0 26 23"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6.62464 0.386475C5.95755 0.386475 5.3346 0.719869 4.96456 1.27492L0.872503 7.41301C0.621986 7.78879 0.592027 8.26999 0.794 8.67393C3.03327 13.1525 6.14523 17.1382 9.94695 20.3968L11.9429 22.1077C12.4678 22.5575 13.2423 22.5576 13.7672 22.1077L15.7632 20.3968C19.5649 17.1382 22.6769 13.1525 24.9161 8.67393C25.1181 8.26999 25.0881 7.78879 24.8376 7.41301L20.7456 1.27492C20.3755 0.71987 19.7526 0.386475 19.0855 0.386475H6.62464ZM6.38749 2.22354C6.44035 2.14425 6.52935 2.09662 6.62464 2.09662H9.29225L7.10883 7.33683C7.05854 7.45754 7.02058 7.58202 6.995 7.70845C6.19256 7.64872 5.39081 7.57671 4.59002 7.49242L2.98737 7.32372L6.38749 2.22354ZM2.91189 9.03537C4.95654 12.7863 7.65646 16.1442 10.8864 18.9487L7.32303 9.44644C6.35128 9.37964 5.38044 9.29522 4.41099 9.19317L2.91189 9.03537ZM9.18944 9.55304L12.8551 19.3281L16.5207 9.55304C14.0782 9.66415 11.6319 9.66415 9.18944 9.55304ZM18.3871 9.44644L14.8238 18.9487C18.0537 16.1442 20.7536 12.7862 22.7982 9.03537L21.2991 9.19317C20.3297 9.29522 19.3588 9.37964 18.3871 9.44644ZM22.7228 7.32372L21.1201 7.49242C20.3193 7.57671 19.5176 7.64872 18.7151 7.70845C18.6896 7.58202 18.6516 7.45754 18.6013 7.33683L16.4179 2.09662H19.0855C19.1808 2.09662 19.2698 2.14425 19.3226 2.22354L22.7228 7.32372ZM16.9499 7.81996C14.2219 7.96165 11.4883 7.96165 8.76018 7.81996L11.1449 2.09662H14.5652L16.9499 7.81996Z"
+                  fill="#4873FF"
+                />
+              </svg>
+            </div>
+            <h4 class="feature_name">Feature Name</h4>
+            <p class="feature_desc">
+              Curabitur leo elit, fermentum vel erat id, sodales euismod nisl.
+              Sed nec ante nibh. Curabitur varius varius sollicitudin.
+            </p>
+          </div>
+          <div class="feature_box">
+            <div class="feature_img">
+              <svg
+                width="20"
+                height="10"
+                viewBox="0 0 25 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.61833 5.08212C5.35901 5.08212 4.33814 6.103 4.33814 7.36232C4.33814 8.62163 5.35901 9.64251 6.61833 9.64251C7.87765 9.64251 8.89852 8.62163 8.89852 7.36232C8.89852 6.103 7.87765 5.08212 6.61833 5.08212Z"
+                  fill="#4873FF"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6.61833 0.806763C2.9978 0.806763 0.0627747 3.74178 0.0627747 7.36232C0.0627747 10.9829 2.9978 13.9179 6.61833 13.9179C9.1044 13.9179 11.2656 12.5341 12.3767 10.4976H16.0241V13.0628C16.0241 13.535 16.407 13.9179 16.8792 13.9179H20.8695C21.3418 13.9179 21.7246 13.535 21.7246 13.0628V10.4976H23.7198C24.192 10.4976 24.5749 10.1148 24.5749 9.64251V6.22222C24.5749 5.12032 23.6816 4.22705 22.5797 4.22705H12.3767C11.2656 2.19051 9.1044 0.806763 6.61833 0.806763ZM1.77292 7.36232C1.77292 4.68627 3.94228 2.51691 6.61833 2.51691C8.60393 2.51691 10.3125 3.71138 11.0609 5.42447C11.197 5.73591 11.5046 5.9372 11.8445 5.9372H22.5797C22.7371 5.9372 22.8647 6.06481 22.8647 6.22222V8.78744H20.8695C20.3973 8.78744 20.0145 9.17027 20.0145 9.64251V12.2077H17.7343V9.64251C17.7343 9.17027 17.3514 8.78744 16.8792 8.78744H11.8445C11.5046 8.78744 11.197 8.98872 11.0609 9.30016C10.3125 11.0133 8.60393 12.2077 6.61833 12.2077C3.94228 12.2077 1.77292 10.0384 1.77292 7.36232Z"
+                  fill="#4873FF"
+                />
+              </svg>
+            </div>
+            <h4 class="feature_name">Feature Name</h4>
+            <p class="feature_desc">
+              vamus tempus odio in nunc consequat, et luctus ipsum semper.
+              Pellentesque porta est velit, vitae tristique ante mollis in.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="dropdowns">
+        <div class="feature_desc">
+          <h3 class="feature_heading">
+            Frequently Asked <span class="highlight">Questions</span>
+          </h3>
+          <p class="feature_text">
+            In hac habitasse platea dictumst. Proin sollicitudin odio augue.
+            Cras nibh m.
+          </p>
+        </div>
+        <div class="faq_dropdown">
+          <div class="dropdown">
+            <p class="faq_text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ?
+            </p>
+            <svg
+              width="12"
+              height="9"
+              viewBox="0 0 16 9"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.6861 1.07525L8.05145 7.4406L14.4168 1.07525"
+                stroke="white"
+                stroke-width="1.69743"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="faq_answer">
+            <div class="answer">
+              <h5 class="ques">What is Lorem ipsum dolor sit amet ?</h5>
+              <svg
+                width="12"
+                height="9"
+                viewBox="0 0 16 9"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.6861 7.85315L8.05145 1.48779L14.4168 7.85315"
+                  stroke="#4873FF"
+                  stroke-width="1.69743"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <p class="ans">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              ultricies neque tortor, at bibendum leo sagittis non. In sed
+              efficitur leo. Cras velit massa, malesuada at orci sed, imperdiet
+              finibus tortor. Donec at leo luctus, faucibus nisi ac, tincidunt
+              nibh. Aliquam et sodales est. Cras diam lacus, lacinia non
+              ultricies et, efficitur eget risus. Sed dolor erat, venenatis in
+              quam sed, vestibulum dictum lacus. Nunc euismod purus nibh, at
+              mattis nibh volutpat in. Donec eu commodo dolor. Sed efficitur
+              ultrices justo, quis dapibus leo fermentum at. Praesent interdum
+              erat nisi, viverra egestas turpis posuere et.
+            </p>
+          </div>
+          <div class="dropdown">
+            <p class="faq_text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ?
+            </p>
+            <svg
+              width="12"
+              height="9"
+              viewBox="0 0 16 9"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.6861 1.07525L8.05145 7.4406L14.4168 1.07525"
+                stroke="white"
+                stroke-width="1.69743"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="dropdown">
+            <p class="faq_text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ?
+            </p>
+            <svg
+              width="12"
+              height="9"
+              viewBox="0 0 16 9"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.6861 1.07525L8.05145 7.4406L14.4168 1.07525"
+                stroke="white"
+                stroke-width="1.69743"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="dropdown">
+            <p class="faq_text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ?
+            </p>
+            <svg
+              width="12"
+              height="9"
+              viewBox="0 0 16 9"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.6861 1.07525L8.05145 7.4406L14.4168 1.07525"
+                stroke="white"
+                stroke-width="1.69743"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="dropdown">
+            <p class="faq_text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ?
+            </p>
+            <svg
+              width="12"
+              height="9"
+              viewBox="0 0 16 9"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.6861 1.07525L8.05145 7.4406L14.4168 1.07525"
+                stroke="white"
+                stroke-width="1.69743"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+        </div>
+        <p class="query">
+          Still have any questions?<a class="contact" href="#">Contact Us</a>
+        </p>
+      </section>
+      <section class="reviews">
+        <div class="feature_desc">
+          <h3 class="feature_heading">
+            Our <span class="highlight">Reviews</span>
+          </h3>
+          <p class="feature_text">
+            In hac habitasse platea dictumst. Proin sollicitudin odio augue.
+            Cras nibh m.
+          </p>
+        </div>
+        <div class="review_container">
+          <div class="review">
+            <p class="user_review">
+              Suspendisse blandit sapien est, id suscipit ex lobortis ac. Donec
+              hendrerit, arcu et sodales pellentesque, orci arcu lacinia ligula,
+              vel iqurisus quam quis libero. Phasellus eget velit tellus. In
+              viverra erat justo, vel aliquet enim viverra vel. Sed porta cursus
+              orci, hendrerit tristique nulla faucibus a.
+            </p>
+            <div class="user">
+              <div class="profile">
+                <img
+                  class="user_image1"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo11Zte3fuhQvRiKks2mvf7DhP-aXSeu7PZQ&usqp=CAU"
+                  alt="#"
+                />
+                <h4 class="user_name">Reviewer Name</h4>
+              </div>
+              <div class="rating">
+                <svg
+                  width="13"
+                  height="13"
+                  viewBox="0 0 13 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.85638 1.92981C6.66853 1.60608 6.20103 1.60608 6.01319 1.92981L4.69027 4.20968C4.59747 4.3696 4.43708 4.47873 4.25427 4.50634L1.77503 4.8808C1.35863 4.9437 1.21256 5.46945 1.53685 5.73812L3.38378 7.26828C3.55474 7.40992 3.63513 7.63334 3.5936 7.85144L3.11047 10.3886C3.0341 10.7897 3.45514 11.1013 3.8164 10.9111L6.15091 9.68185C6.3286 9.58829 6.54097 9.58829 6.71865 9.68185L9.05317 10.9111C9.41443 11.1013 9.83547 10.7897 9.75909 10.3886L9.27596 7.85144C9.23444 7.63334 9.31482 7.40992 9.48579 7.26828L11.3327 5.73812C11.657 5.46945 11.5109 4.9437 11.0945 4.8808L8.6153 4.50634C8.43248 4.47873 8.27209 4.3696 8.1793 4.20968L6.85638 1.92981Z"
+                    fill="#00C344"
+                  />
+                </svg>
+                5/5
+              </div>
+            </div>
+          </div>
+          <div class="review r2">
+            <p class="user_review">
+              Cras id ex venenatis, laoreet arcu vel, tempus justo. Sed
+              fermentum in lacus ac venenatis. Nullam risus nisl, scelerisque
+              sit amet aliquet at, pretium non leo.
+            </p>
+            <div class="user">
+              <div class="profile">
+                <img
+                  class="user_image2"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0TmmvpjabycAZB3h7kCER9OEvOMN6QZtAcQ&usqp=CAU"
+                  alt="#"
+                />
+                <h4 class="user_name">Reviewer Name</h4>
+              </div>
+              <div class="rating">
+                <svg
+                  width="13"
+                  height="13"
+                  viewBox="0 0 13 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.85638 1.92981C6.66853 1.60608 6.20103 1.60608 6.01319 1.92981L4.69027 4.20968C4.59747 4.3696 4.43708 4.47873 4.25427 4.50634L1.77503 4.8808C1.35863 4.9437 1.21256 5.46945 1.53685 5.73812L3.38378 7.26828C3.55474 7.40992 3.63513 7.63334 3.5936 7.85144L3.11047 10.3886C3.0341 10.7897 3.45514 11.1013 3.8164 10.9111L6.15091 9.68185C6.3286 9.58829 6.54097 9.58829 6.71865 9.68185L9.05317 10.9111C9.41443 11.1013 9.83547 10.7897 9.75909 10.3886L9.27596 7.85144C9.23444 7.63334 9.31482 7.40992 9.48579 7.26828L11.3327 5.73812C11.657 5.46945 11.5109 4.9437 11.0945 4.8808L8.6153 4.50634C8.43248 4.47873 8.27209 4.3696 8.1793 4.20968L6.85638 1.92981Z"
+                    fill="#00C344"
+                  />
+                </svg>
+                5/5
+              </div>
+            </div>
+          </div>
+          <div class="review r2">
+            <p class="user_review">
+              Integer sodales eros molestie nisl hendrerit, vel eleifend ligula
+              aliquet. Nullam lobortis tortor arcu, ut vestibulum velit sagittis
+              vitae. Ut odio diam, vestibulum sit amet tortor sit ame.
+            </p>
+            <div class="user">
+              <div class="profile">
+                <img
+                  class="user_image3"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPJX9du0pNznjg7_cM2FZle1CbL0mYrmraTg&usqp=CAU"
+                  alt="#"
+                />
+                <h4 class="user_name">Reviewer Name</h4>
+              </div>
+              <div class="rating">
+                <svg
+                  width="13"
+                  height="13"
+                  viewBox="0 0 13 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.85638 1.92981C6.66853 1.60608 6.20103 1.60608 6.01319 1.92981L4.69027 4.20968C4.59747 4.3696 4.43708 4.47873 4.25427 4.50634L1.77503 4.8808C1.35863 4.9437 1.21256 5.46945 1.53685 5.73812L3.38378 7.26828C3.55474 7.40992 3.63513 7.63334 3.5936 7.85144L3.11047 10.3886C3.0341 10.7897 3.45514 11.1013 3.8164 10.9111L6.15091 9.68185C6.3286 9.58829 6.54097 9.58829 6.71865 9.68185L9.05317 10.9111C9.41443 11.1013 9.83547 10.7897 9.75909 10.3886L9.27596 7.85144C9.23444 7.63334 9.31482 7.40992 9.48579 7.26828L11.3327 5.73812C11.657 5.46945 11.5109 4.9437 11.0945 4.8808L8.6153 4.50634C8.43248 4.47873 8.27209 4.3696 8.1793 4.20968L6.85638 1.92981Z"
+                    fill="#00C344"
+                  />
+                </svg>
+                5/5
+              </div>
+            </div>
+          </div>
+          <div class="review r2">
+            <p class="user_review">
+              Cras id ex venenatis, laoreet arcu vel, tempus justo. Sed
+              fermentum in lacus ac venenatis. Nullam risus nisl, scelerisque
+              sit amet aliquet at, pretium non leo.
+            </p>
+            <div class="user">
+              <div class="profile">
+                <img
+                  class="user_image4"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb51Yj-DS6kVL7MmwQlcDzpdeYRaHK3Hd__g&usqp=CAU"
+                  alt="#"
+                />
+                <h4 class="user_name">Reviewer Name</h4>
+              </div>
+              <div class="rating">
+                <svg
+                  width="13"
+                  height="13"
+                  viewBox="0 0 13 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.85638 1.92981C6.66853 1.60608 6.20103 1.60608 6.01319 1.92981L4.69027 4.20968C4.59747 4.3696 4.43708 4.47873 4.25427 4.50634L1.77503 4.8808C1.35863 4.9437 1.21256 5.46945 1.53685 5.73812L3.38378 7.26828C3.55474 7.40992 3.63513 7.63334 3.5936 7.85144L3.11047 10.3886C3.0341 10.7897 3.45514 11.1013 3.8164 10.9111L6.15091 9.68185C6.3286 9.58829 6.54097 9.58829 6.71865 9.68185L9.05317 10.9111C9.41443 11.1013 9.83547 10.7897 9.75909 10.3886L9.27596 7.85144C9.23444 7.63334 9.31482 7.40992 9.48579 7.26828L11.3327 5.73812C11.657 5.46945 11.5109 4.9437 11.0945 4.8808L8.6153 4.50634C8.43248 4.47873 8.27209 4.3696 8.1793 4.20968L6.85638 1.92981Z"
+                    fill="#00C344"
+                  />
+                </svg>
+                5/5
+              </div>
+            </div>
+          </div>
+          <div class="review r3">
+            <p class="user_review">
+              Integer blandit tellus mollis lacus molestie, id convallis justo
+              porta. Donec luctus pellentes sem, eget aliquam diam imperdiet
+              quis. Vivamus semper, urna eget tempor mattis, ipsum enim ultrices
+              arcu, quis varius lorem massa malesuada nunc. Cras eget imperdiet
+              elit. Duis elementu.
+            </p>
+            <div class="user">
+              <div class="profile">
+                <img
+                  class="user_image5"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0TmmvpjabycAZB3h7kCER9OEvOMN6QZtAcQ&usqp=CAU"
+                  alt="#"
+                />
+                <h4 class="user_name">Reviewer Name</h4>
+              </div>
+              <div class="rating">
+                <svg
+                  width="13"
+                  height="13"
+                  viewBox="0 0 13 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.85638 1.92981C6.66853 1.60608 6.20103 1.60608 6.01319 1.92981L4.69027 4.20968C4.59747 4.3696 4.43708 4.47873 4.25427 4.50634L1.77503 4.8808C1.35863 4.9437 1.21256 5.46945 1.53685 5.73812L3.38378 7.26828C3.55474 7.40992 3.63513 7.63334 3.5936 7.85144L3.11047 10.3886C3.0341 10.7897 3.45514 11.1013 3.8164 10.9111L6.15091 9.68185C6.3286 9.58829 6.54097 9.58829 6.71865 9.68185L9.05317 10.9111C9.41443 11.1013 9.83547 10.7897 9.75909 10.3886L9.27596 7.85144C9.23444 7.63334 9.31482 7.40992 9.48579 7.26828L11.3327 5.73812C11.657 5.46945 11.5109 4.9437 11.0945 4.8808L8.6153 4.50634C8.43248 4.47873 8.27209 4.3696 8.1793 4.20968L6.85638 1.92981Z"
+                    fill="#00C344"
+                  />
+                </svg>
+                5/5
+              </div>
+            </div>
+          </div>
+          <div class="review r3">
+            <p class="user_review">
+              Phasellus rutrum libero lectus, vel vehicula mi hendrerit vitae.
+              Proin ut ligula ut ipsum egestas lacinia non a metus. Cras
+              porttitor sem sit amet mauris malesuada, a viverra ex suscipit.
+              Suspendisse tincidunt auctor nunc, id pellentesque mi eleifend
+              fermentum. In id tristique nisi. Integer ligula eli.
+            </p>
+            <div class="user">
+              <div class="profile">
+                <img
+                  class="user_image6"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo11Zte3fuhQvRiKks2mvf7DhP-aXSeu7PZQ&usqp=CAU"
+                  alt="#"
+                />
+                <h4 class="user_name">Reviewer Name</h4>
+              </div>
+              <div class="rating">
+                <svg
+                  width="13"
+                  height="13"
+                  viewBox="0 0 13 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.85638 1.92981C6.66853 1.60608 6.20103 1.60608 6.01319 1.92981L4.69027 4.20968C4.59747 4.3696 4.43708 4.47873 4.25427 4.50634L1.77503 4.8808C1.35863 4.9437 1.21256 5.46945 1.53685 5.73812L3.38378 7.26828C3.55474 7.40992 3.63513 7.63334 3.5936 7.85144L3.11047 10.3886C3.0341 10.7897 3.45514 11.1013 3.8164 10.9111L6.15091 9.68185C6.3286 9.58829 6.54097 9.58829 6.71865 9.68185L9.05317 10.9111C9.41443 11.1013 9.83547 10.7897 9.75909 10.3886L9.27596 7.85144C9.23444 7.63334 9.31482 7.40992 9.48579 7.26828L11.3327 5.73812C11.657 5.46945 11.5109 4.9437 11.0945 4.8808L8.6153 4.50634C8.43248 4.47873 8.27209 4.3696 8.1793 4.20968L6.85638 1.92981Z"
+                    fill="#00C344"
+                  />
+                </svg>
+                5/5
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="footer">
+          <div class="footer_left">
+            <div class="header_logo">
+              <svg
+                width="40"
+                height="47"
+                viewBox="0 0 40 47"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  x="6.27545"
+                  y="7.11182"
+                  width="17.8142"
+                  height="33.4016"
+                  rx="4.45354"
+                  fill="#0030CD"
+                />
+                <path
+                  d="M15.1826 16.4238H32.9967V11.5654C32.9967 9.10573 31.0028 7.11182 28.5432 7.11182H10.729H10.5266V7.11634C10.5937 7.11334 10.6612 7.11182 10.729 7.11182C13.1887 7.11182 15.1826 9.10573 15.1826 11.5654V16.4238Z"
+                  fill="#4873FF"
+                />
+                <path
+                  d="M10.5266 40.5089V40.5134H10.729H28.5432C31.0028 40.5134 32.9967 38.5195 32.9967 36.0598V31.2014H15.1826V36.0598C15.1826 38.5195 13.1887 40.5134 10.729 40.5134C10.6612 40.5134 10.5937 40.5119 10.5266 40.5089Z"
+                  fill="#4873FF"
+                />
+                <rect
+                  x="1.51825"
+                  y="2.15204"
+                  width="36.0332"
+                  height="42.7135"
+                  rx="9.21073"
+                  stroke="#0030CD"
+                  stroke-width="3.0365"
+                />
+              </svg>
+              <div class="footer_logo_name">
+                <h2 class="logo_name">CoinCard</h2>
+                <p>by Coin Change</p>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              fringilla tempor nunc, vel imperdiet mauris consequat non.
+            </p>
+            <div class="conditions">
+              <p class="policy">Terms of Service</p>
+              <svg
+                width="6"
+                height="6"
+                viewBox="0 0 11 10"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5.85638 0.929809C5.66853 0.60608 5.20103 0.606079 5.01319 0.929809L3.69027 3.20968C3.59747 3.3696 3.43708 3.47873 3.25427 3.50634L0.775031 3.8808C0.358626 3.9437 0.212562 4.46945 0.536854 4.73812L2.38378 6.26828C2.55474 6.40992 2.63513 6.63334 2.5936 6.85144L2.11047 9.38859C2.0341 9.78967 2.45514 10.1013 2.8164 9.91107L5.15091 8.68185C5.3286 8.58829 5.54097 8.58829 5.71865 8.68185L8.05317 9.91107C8.41443 10.1013 8.83547 9.78967 8.75909 9.38859L8.27596 6.85144C8.23444 6.63334 8.31482 6.40992 8.48579 6.26828L10.3327 4.73812C10.657 4.46945 10.5109 3.9437 10.0945 3.8808L7.6153 3.50634C7.43248 3.47873 7.27209 3.3696 7.1793 3.20968L5.85638 0.929809Z"
+                  fill="#ffffff40"
+                />
+              </svg>
+
+              <p class="policy">Privacy Policy</p>
+            </div>
+          </div>
+          <div class="footer_right">
+            <div class="box1">
+              <h4 class="categories">EXPLORE</h4>
+              <p>Order</p>
+              <p>About Us</p>
+              <p>FAQs</p>
+            </div>
+            <div class="box1">
+              <h4 class="categories">ACCOUNT</h4>
+              <p>Sign Up</p>
+              <p>Log In</p>
+            </div>
+            <div class="box1">
+              <h4 class="categories">SOCIAL</h4>
+              <div class="socials">
+                <div class="social_icon">
+                  <svg
+                    width="16"
+                    height="12"
+                    viewBox="0 0 16 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12.857 1.46193C11.9401 1.04122 10.9568 0.731253 9.92878 0.553723C9.91005 0.550297 9.89135 0.558859 9.88171 0.575985C9.75525 0.800893 9.61518 1.0943 9.5171 1.32492C8.41137 1.15939 7.31132 1.15939 6.22826 1.32492C6.13015 1.08918 5.985 0.800893 5.85798 0.575985C5.84833 0.559431 5.82963 0.550868 5.81091 0.553723C4.78343 0.730686 3.80019 1.04065 2.88271 1.46193C2.87477 1.46536 2.86796 1.47107 2.86344 1.47849C0.998432 4.26477 0.487528 6.98257 0.738161 9.66667C0.739295 9.6798 0.746666 9.69236 0.756873 9.70035C1.98735 10.604 3.17928 11.1526 4.34908 11.5162C4.3678 11.5219 4.38764 11.5151 4.39955 11.4996C4.67627 11.1218 4.92293 10.7233 5.13443 10.3043C5.14691 10.2798 5.13499 10.2506 5.10948 10.2409C4.71823 10.0925 4.34567 9.91156 3.9873 9.70606C3.95896 9.68951 3.95669 9.64896 3.98276 9.62955C4.05818 9.57304 4.13361 9.51424 4.20562 9.45488C4.21865 9.44404 4.23681 9.44175 4.25213 9.4486C6.60647 10.5235 9.15532 10.5235 11.4819 9.4486C11.4972 9.44118 11.5154 9.44347 11.529 9.45431C11.601 9.51368 11.6764 9.57304 11.7524 9.62955C11.7785 9.64896 11.7768 9.68951 11.7484 9.70606C11.39 9.91555 11.0175 10.0925 10.6257 10.2404C10.6002 10.2501 10.5888 10.2798 10.6013 10.3043C10.8173 10.7227 11.064 11.1212 11.3356 11.4991C11.3469 11.5151 11.3673 11.5219 11.3861 11.5162C12.5615 11.1526 13.7535 10.604 14.9839 9.70035C14.9947 9.69236 15.0015 9.68037 15.0027 9.66724C15.3026 6.56412 14.5002 3.86861 12.8757 1.47906C12.8717 1.47107 12.8649 1.46536 12.857 1.46193ZM5.48601 8.03233C4.77719 8.03233 4.19314 7.38159 4.19314 6.5824C4.19314 5.78321 4.76586 5.13246 5.48601 5.13246C6.21181 5.13246 6.7902 5.78893 6.77885 6.5824C6.77885 7.38159 6.20613 8.03233 5.48601 8.03233ZM10.2662 8.03233C9.55736 8.03233 8.97331 7.38159 8.97331 6.5824C8.97331 5.78321 9.54601 5.13246 10.2662 5.13246C10.992 5.13246 11.5703 5.78893 11.559 6.5824C11.559 7.38159 10.992 8.03233 10.2662 8.03233Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+                <div class="social_icon">
+                  <svg
+                    width="15"
+                    height="13"
+                    viewBox="0 0 15 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1.49529 5.59907C5.27731 3.95131 7.79925 2.865 9.0611 2.34015C12.664 0.841595 13.4126 0.58128 13.9006 0.572593C14.0079 0.570794 14.2478 0.597391 14.4033 0.723518C14.5345 0.830017 14.5706 0.973882 14.5879 1.07486C14.6052 1.17583 14.6267 1.40585 14.6096 1.58558C14.4144 3.63698 13.5696 8.61521 13.1398 10.9128C12.9579 11.885 12.5998 12.211 12.2532 12.2429C11.4998 12.3122 10.9277 11.745 10.198 11.2667C9.05617 10.5182 8.4111 10.0523 7.30276 9.32188C6.02188 8.47779 6.85222 8.01387 7.58219 7.25569C7.77323 7.05727 11.0927 4.03797 11.1569 3.76407C11.165 3.72981 11.1724 3.60212 11.0966 3.5347C11.0207 3.46727 10.9088 3.49033 10.828 3.50867C10.7134 3.53466 8.88935 4.74032 5.35569 7.12564C4.83793 7.48117 4.36896 7.6544 3.94878 7.64532C3.48556 7.63531 2.59451 7.38341 1.93211 7.16809C1.11965 6.90399 0.473918 6.76436 0.530147 6.31584C0.559434 6.08222 0.881148 5.8433 1.49529 5.59907Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+                <div class="social_icon">
+                  <svg
+                    width="16"
+                    height="15"
+                    viewBox="0 0 16 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7.78435 1.42723C9.73317 1.42723 9.96395 1.43577 10.7304 1.46996C11.4427 1.5013 11.8273 1.62097 12.0837 1.72069C12.4228 1.85175 12.6678 2.0113 12.9214 2.26487C13.1778 2.5213 13.3345 2.76347 13.4655 3.10252C13.5653 3.35895 13.6849 3.74643 13.7163 4.45587C13.7505 5.22514 13.759 5.45592 13.759 7.40188C13.759 9.3507 13.7505 9.58148 13.7163 10.3479C13.6849 11.0602 13.5653 11.4448 13.4655 11.7012C13.3345 12.0403 13.1749 12.2853 12.9214 12.5389C12.6649 12.7953 12.4228 12.952 12.0837 13.0831C11.8273 13.1828 11.4398 13.3025 10.7304 13.3338C9.9611 13.368 9.73032 13.3765 7.78435 13.3765C5.83554 13.3765 5.60475 13.368 4.83833 13.3338C4.12605 13.3025 3.74141 13.1828 3.48499 13.0831C3.14594 12.952 2.90092 12.7925 2.64734 12.5389C2.39092 12.2825 2.23422 12.0403 2.10316 11.7012C2.00344 11.4448 1.88377 11.0573 1.85243 10.3479C1.81824 9.57863 1.80969 9.34785 1.80969 7.40188C1.80969 5.45307 1.81824 5.22229 1.85243 4.45587C1.88377 3.74358 2.00344 3.35895 2.10316 3.10252C2.23422 2.76347 2.39377 2.51845 2.64734 2.26487C2.90377 2.00845 3.14594 1.85175 3.48499 1.72069C3.74141 1.62097 4.1289 1.5013 4.83833 1.46996C5.60475 1.43577 5.83554 1.42723 7.78435 1.42723ZM7.78435 0.11377C5.80419 0.11377 5.55632 0.122317 4.7785 0.156507C4.00354 0.190696 3.47075 0.316059 3.00918 0.495555C2.52768 0.683598 2.12025 0.931474 1.71567 1.3389C1.30824 1.74348 1.06037 2.15091 0.872325 2.62956C0.692829 3.09398 0.567466 3.62392 0.533277 4.39888C0.499087 5.17955 0.49054 5.42742 0.49054 7.40758C0.49054 9.38774 0.499087 9.63561 0.533277 10.4134C0.567466 11.1884 0.692829 11.7212 0.872325 12.1827C1.06037 12.6643 1.30824 13.0717 1.71567 13.4763C2.12025 13.8808 2.52768 14.1316 3.00633 14.3168C3.47075 14.4963 4.00069 14.6216 4.77565 14.6558C5.55347 14.69 5.80135 14.6985 7.7815 14.6985C9.76166 14.6985 10.0095 14.69 10.7873 14.6558C11.5623 14.6216 12.0951 14.4963 12.5567 14.3168C13.0353 14.1316 13.4428 13.8808 13.8473 13.4763C14.2519 13.0717 14.5026 12.6643 14.6878 12.1856C14.8673 11.7212 14.9927 11.1912 15.0269 10.4163C15.0611 9.63846 15.0696 9.39059 15.0696 7.41043C15.0696 5.43027 15.0611 5.1824 15.0269 4.40458C14.9927 3.62961 14.8673 3.09682 14.6878 2.63526C14.5083 2.15091 14.2605 1.74348 13.853 1.3389C13.4485 0.934323 13.041 0.683599 12.5624 0.498404C12.098 0.318908 11.568 0.193546 10.793 0.159356C10.0124 0.122317 9.76451 0.11377 7.78435 0.11377Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M7.78441 3.66064C5.71593 3.66064 4.03778 5.33879 4.03778 7.40727C4.03778 9.47575 5.71593 11.1539 7.78441 11.1539C9.85288 11.1539 11.531 9.47575 11.531 7.40727C11.531 5.33879 9.85288 3.66064 7.78441 3.66064ZM7.78441 9.83759C6.44246 9.83759 5.35409 8.74922 5.35409 7.40727C5.35409 6.06532 6.44246 4.97695 7.78441 4.97695C9.12635 4.97695 10.2147 6.06532 10.2147 7.40727C10.2147 8.74922 9.12635 9.83759 7.78441 9.83759Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M12.5539 3.51263C12.5539 3.99698 12.1607 4.38732 11.6792 4.38732C11.1948 4.38732 10.8045 3.99413 10.8045 3.51263C10.8045 3.02827 11.1977 2.63794 11.6792 2.63794C12.1607 2.63794 12.5539 3.03112 12.5539 3.51263Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="line"></div>
+        <p>Copyright © 2022 CoinCard. All Rights Reserved</p>
+      </footer>
+    </div>
+  </body>
+</html>
